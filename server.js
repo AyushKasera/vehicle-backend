@@ -29,6 +29,6 @@ app.get('/api/vehicle', (req, res) => {
     res.json(newData);
 });
 
-app.listen(port, () => {
-    console.log(`Server running on http://localhost:${port}`);
+app.listen(PORT, () => {
+    console.log(`Server running on http://localhost:${PORT}`);
 });
